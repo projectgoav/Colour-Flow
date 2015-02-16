@@ -1,0 +1,18 @@
+﻿ChangeLog for ColourFlow
+
+-Records Changes from the Printed Version
+
+
+
++ Fixed a saving issue with the Palettes and so they auto save after each edit
++ Added an Auto Settings save when you choose the default palette
++ Corrected Default Palette to load from a STRING value of the Palette name and not the ID number
++ Updated the form close labels to say "Return to Menu (<)" and not "Close(x)"
++ Added the ability to change from "Dark" Skin to "Light" Skin
++ Updated some of the Help screens to contain the new information
++ Modified the move-limit on Challenge Mode so they game is made 'easier'
+
+
+- Removed Black colour warning when adding this to a palette as the user can change the colour of the form to see it.
+- Removed Message saying palette has been saved and this was added into the "Save" label click event
+- Removed alert to user reminding them to save when setting default
